@@ -8,7 +8,8 @@ if a>b:
 else:
     print("nothing")
     
-Hello World
+#Hello World
+
 #2 print hello world if a is not equal to b.
 
 a=20
@@ -19,8 +20,9 @@ if a != b:
 else:
     print("nothing")
     
-Hello World
-#print yes if a is equal to b,otherwise print no.
+#Hello World
+
+#3print yes if a is equal to b,otherwise print no.
 
 a=20
 b=10
@@ -30,7 +32,8 @@ if a==b:
 else:
     print("No")
     
-No
+#No
+
 #4 print 1 if a is equal to b,print 2 if a is greater than b, otherwise print 3.
 
 a=20
@@ -46,7 +49,8 @@ if a>b:
 else:
     print("3")
     
-2
+#2
+
 #5 print hello if a is equal to b, and c is equal to d.
 
 a=20
@@ -58,7 +62,8 @@ if a==b and c==d:
     print("Hello")
 else:
     print("nothing")
-nothing
+#nothing
+
 #6 print hello if a is equal to b,or if c is equal to d.
 
 
@@ -69,14 +74,16 @@ d=10
 
 if a==b or c==d:
     print("Hello")
-Hello
+#Hello
+
 #7
 
 if 5>2:
     print("Five is greater than two!")
 else:
     print("Less than")
-Five is greater than two!
+#Five is greater than two!
+
 #8
 
 if 5>2:
