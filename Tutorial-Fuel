@@ -1,0 +1,252 @@
+#1 print hello world if a is greater than b.
+
+a=20
+b=10
+
+if a>b:
+    print("Hello World")
+else:
+    print("nothing")
+    
+Hello World
+#2 print hello world if a is not equal to b.
+
+a=20
+b=10
+
+if a != b:
+    print("Hello World")
+else:
+    print("nothing")
+    
+Hello World
+#print yes if a is equal to b,otherwise print no.
+
+a=20
+b=10
+
+if a==b:
+    print("Yes")
+else:
+    print("No")
+    
+No
+#4 print 1 if a is equal to b,print 2 if a is greater than b, otherwise print 3.
+
+a=20
+b=10
+
+if a==b:
+    print("1")
+    
+if a>b:
+    print("2")
+    
+    
+else:
+    print("3")
+    
+2
+#5 print hello if a is equal to b, and c is equal to d.
+
+a=20
+b=10
+c=10
+d=10
+
+if a==b and c==d:
+    print("Hello")
+else:
+    print("nothing")
+nothing
+#6 print hello if a is equal to b,or if c is equal to d.
+
+
+a=20
+b=20
+c=10
+d=10
+
+if a==b or c==d:
+    print("Hello")
+Hello
+#7
+
+if 5>2:
+    print("Five is greater than two!")
+else:
+    print("Less than")
+Five is greater than two!
+#8
+
+if 5>2:
+    print("Yes")
+else:
+    print("No")
+Yes
+#9 write a program to check whether a person is eligible for voting or not.
+
+age =int(input("Enter the age:"))
+
+if age>=18:
+    print("A person is eligible for voting.")
+
+else:
+    print("A person is not eligible for voting.")
+Enter the age:99
+A person is eligible for voting.
+#10 write if statement to check whether a no. is even or odd.
+
+x =int(input("Enter the number:"))
+
+if x % 2 == 0:
+    print("A number is even.")
+else:
+    print("A number is odd.")
+Enter the number:9
+A number is odd.
+#11 write if statement to check whether a entered by user is divisible by 7 or not.
+
+x =int(input("Enter the number:"))
+
+if x / 7 == 0 :
+    print("A number is divisible by 7.")
+else:
+    print("A number is not divisible by 7.")
+Enter the number:22
+A number is not divisible by 7.
+#12 write a program to display hello if a no. entered by user is multiple of 5,otherwise print bye.
+
+x =int(input("Enter the number:"))
+
+if x % 5 == 0 :
+    print("Hello.")
+else:
+    print("Bye.")
+Enter the number:90
+Hello.
+#12 write a program to display hello if a no. entered by user is multiple of 5,otherwise print bye.
+
+x =int(input("Enter the number:"))
+
+if x % 5 == 0 :
+    print("Hello.")
+else:
+    print("Bye.")
+Enter the number:99
+Bye.
+#13
+
+amount = 0
+x =int(input("Enter number of the electricity unit:"))
+if x<=100:
+    amount=0
+if x>100 and x<=200:
+    amount=(x-100)*5
+if x>200:
+    amount= 500+(x -200)*10
+    print("Amount pay:", amount)
+    
+Enter number of the electricity unit:270
+Amount pay: 1200
+#14 write a program to display last digit of no.
+
+num =int(input("Enter number the number:"))
+print("last digit", num %10)
+Enter number the number:90
+last digit 0
+ num=int(input("Enter number the number:"))
+if num%3== 0:
+    print("last digit", num %10)
+else:
+    print("No")
+Enter number the number:39
+last digit 9
+num=int(input("Enter number the number:"))
+
+
+if num > 90:
+    print("Your grade is A")
+
+elif num>=80 and num<=90:
+    print("Your grade is B")
+
+elif num>=60 and num<=90:
+    print("Your grade is C")
+    
+else:
+    print("Your grade is D")
+    
+Enter number the percentage40
+Your grade is D
+y=int(input("Enter year:"))
+if(y%4==0) and y%100!=0:
+    print("The year is leap")
+else:
+    print("The year is not leap")
+Enter year:2001
+not leap
+num=int(input("Enter number the number:"))
+if (num>=0):
+    print("no is positive")
+else:
+    print("neg")
+Enter number the number:-3
+neg
+num=int(input("Enter number the cost price:"))
+
+
+if num<=50000:
+    print("You need to pay 5% tax")
+
+elif num>50000 and num<=100000:
+    print("You need to pay 10% tax")
+
+elif num<=100000:
+    print("You need to pay 15% tax")
+    
+else:
+    print("You need to pay more than 15% tax")
+    
+Enter number the cost price:1100000
+You need to pay more than 15% tax
+num=int(input("Enter number the number:"))
+
+
+if num == 1:
+    print("Sunday")
+
+elif num ==2:
+    print("Monday")
+
+elif num==3:
+    print("Tuesday")
+    
+elif num==4:
+    print("Wednesday")
+
+elif num==5:
+    print("Thursday")
+
+elif num==6:
+    print("Friday")
+
+elif num==7:
+    print("Saturday")
+
+else:
+    print("Wrong")
+    
+    
+Enter number the number:4
+Wenesday
+num1=int(input("Enter the positive or negative number:"))
+
+if num1>0:
+    print("The number is positive")
+
+else:
+        print("The number is negative")
+Enter the positive or negative number:3
+The number is positive
+ 
